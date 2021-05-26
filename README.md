@@ -11,7 +11,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at nuoroda
 
-Design: [Mergaite]()
+Design: [Sign-In](https://mantasguscius.github.io/5-sign-in/)
 
 ## Project features
 
@@ -19,7 +19,7 @@ Design: [Mergaite]()
 - multi-page
 - absolute center
 - css blur
--
+- form
 
 ## Authors
 

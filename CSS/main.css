@@ -24,6 +24,9 @@ main {
   float: left;
   background-color: yellow;
   padding: 50px;
+  background-image: url(../img/fonas.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .right-column {
@@ -40,7 +43,7 @@ main {
 }
 
 .bottom-links{
-  margin-top: 250px;
+  margin-top: 310px;
 }
 
 .bottom-links > a{

@@ -1,28 +1,49 @@
 
 .form{
-    
+    display: inline-block;
+    width: 100%;
 }
 
 .form-row{
+    display: inline-block;
+    margin-top: 40px;
+    width: 100%;
+}
 
+.form-row:first-of-type{
+    margin-top: 0px;
 }
 
 .form-row > label{
-
+    text-transform: uppercase;
+    color: gray;
 }
 
 .form-row > input{
-
+    width: 100%;
+    border: none;
+    border-bottom: 2px lightgray solid;
 }
 
 .form-row > button{
-
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: none;
+    border-radius: 20%;
 }
 
 .form-row > span{
-
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
 }
 
 .form-row > a{
-    
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
 }

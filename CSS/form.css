@@ -1,49 +1,66 @@
 
 .form{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
     width: 100%;
 }
 
 .form-row{
-    display: inline-block;
-    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     width: 100%;
 }
 
-.form-row:first-of-type{
-    margin-top: 0px;
+.form-row.flex-row{
+    flex-direction: row;
+    gap: 20px;
 }
 
 .form-row > label{
+    font-size: 14px;
     text-transform: uppercase;
     color: gray;
 }
 
 .form-row > input{
+    font-size: 20px;
     width: 100%;
     border: none;
     border-bottom: 2px lightgray solid;
 }
 
 .form-row > button{
+    font-size: 17px;
+    line-height: 40px;
     background-color: blue;
+    background: rgb(54,54,207);
+    background: linear-gradient (47deg, #1D4DD5 0%, 0065D9 100%);
     color: white;
     font-weight: bold;
-    padding: 10px;
     padding-left: 50px;
     padding-right: 50px;
     border: none;
-    border-radius: 20%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.form-row > button:hover{
+    box-shadow: 0px 15px 15x 10px #0005;
 }
 
 .form-row > span{
+    line-height: 40px;
     display: inline-block;
-    margin-top: 10px;
-    margin-left: 20px;
 }
 
 .form-row > a{
+    line-height: 40px;
     display: inline-block;
-    margin-top: 10px;
     text-decoration: none;
+}
+
+.form-row > a:hover{
+    text-decoration: underline;
 }

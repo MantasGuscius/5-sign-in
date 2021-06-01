@@ -8,6 +8,7 @@ body * {
 }
 
 body {
+    background-color: #17A8BB;
 }
 
 main {
@@ -28,7 +29,7 @@ main {
 .right-column {
     width: 60%;
     float: left;
-    background-color: pink;
+    background-color: white;
     padding: 50px;
     padding-top: 30px;
   }
@@ -56,5 +57,4 @@ main {
   padding: 10px;
   padding-right: 15px;
   padding-left: 15px;
-  background-color: red;
 }

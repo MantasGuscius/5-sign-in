@@ -54,8 +54,9 @@ main {
 }
 
 .main-title{
-  font-size: 60px;
+  font-size: 55px;
   color: white;
+  line-height: 45px;
 }
 
 .bottom-links{

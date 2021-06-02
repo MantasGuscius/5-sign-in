@@ -8,7 +8,8 @@ body * {
 }
 
 body {
-  background: #0091AF;
+  background: rgb(84,29,98);
+background: linear-gradient(40deg, rgba(84,29,98,1) 0%, rgba(56,45,102,1) 31%, rgba(0,79,109,1) 73%, rgba(144,202,226,1) 100%);
   position: relative;
 }
 
@@ -35,13 +36,14 @@ main {
 .left-column {
   width: 40%;
   float: left;
+  padding: 50px;
   background-color: white;
   background-image: url(../img/fonas.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  top: 10px;
-  bottom: 10px;
+  top: 20px;
+  bottom: 20px;
 }
 
 .right-column {
@@ -52,15 +54,15 @@ main {
 }
 
 .main-title{
-  padding: 50px;
   font-size: 60px;
   color: white;
 }
 
 .bottom-links{
-  padding-right: 50px;
-  padding-left: 50px;
-  margin-top: 280px;
+  position: absolute;
+  left: 50px;
+  right: 50px;
+  bottom: 20px;
 }
 
 .bottom-links > a:hover{
